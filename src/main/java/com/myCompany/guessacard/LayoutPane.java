@@ -61,23 +61,17 @@ public class LayoutPane {
         paneForHeader.setTop(paneForHeading);
         paneForHeader.setCenter(paneForButtons);
 
-        Image imgOfCard1 = new Image("com/myCompany/guessacard/images/CLUBS/green_back.png");
-        ImageView imgViewOfCard1 = new ImageView(imgOfCard1);
-        imgViewOfCard1.setFitWidth(100);
-        imgViewOfCard1.setFitHeight(150);
-        Image imgOfCard2 = new Image("com/myCompany/guessacard/images/CLUBS/green_back.png");
-        ImageView imgViewOfCard2 = new ImageView(imgOfCard2);
-        imgViewOfCard2.setFitWidth(100);
-        imgViewOfCard2.setFitHeight(150);
-        Image imgOfCard3 = new Image("com/myCompany/guessacard/images/CLUBS/green_back.png");
-        ImageView imgViewOfCard3 = new ImageView(imgOfCard3);
-        imgViewOfCard3.setFitWidth(100);
-        imgViewOfCard3.setFitHeight(150);
-        Image imgOfCard4 = new Image("com/myCompany/guessacard/images/CLUBS/green_back.png");
-        ImageView imgViewOfCard4 = new ImageView(imgOfCard4);
-        imgViewOfCard4.setFitWidth(100);
-        imgViewOfCard4.setFitHeight(150);
+        Image imgOfCardBack = new Image("com/myCompany/guessacard/images/CLUBS/green_back.png");
+        ImageView imgViewOfCard1 = new ImageView(imgOfCardBack);
+        ImageView imgViewOfCard2 = new ImageView(imgOfCardBack);
+        ImageView imgViewOfCard3 = new ImageView(imgOfCardBack);
+        ImageView imgViewOfCard4 = new ImageView(imgOfCardBack);
         ImageView[] imgViewOfCards = {imgViewOfCard1,imgViewOfCard2,imgViewOfCard3,imgViewOfCard4};
+        for (int i=0; i< imgViewOfCards.length;i++)
+        {
+            imgViewOfCards[i].setFitWidth(100);
+            imgViewOfCards[i].setFitHeight(150);
+        }
 
         HBox paneForImages = new HBox();
         paneForImages.getChildren().addAll(imgViewOfCard1,imgViewOfCard2,imgViewOfCard3,imgViewOfCard4);
@@ -95,10 +89,10 @@ public class LayoutPane {
         RadioButton[] rdoBtnForOptions = {rdoBtnForOption1,rdoBtnForOption2,rdoBtnForOption3,rdoBtnForOption4};
 
         ToggleGroup group = new ToggleGroup();
-        rdoBtnForOption1.setToggleGroup(group);
-        rdoBtnForOption2.setToggleGroup(group);
-        rdoBtnForOption3.setToggleGroup(group);
-        rdoBtnForOption4.setToggleGroup(group);
+        for (int i=0; i<rdoBtnForOptions.length; i++)
+        {
+            rdoBtnForOptions[i].setToggleGroup(group);
+        }
 
         VBox paneForLbAndRdoOptions = new VBox();
         paneForLbAndRdoOptions.getChildren().addAll(lbForQues,rdoBtnForOption1,rdoBtnForOption2,rdoBtnForOption3,rdoBtnForOption4);
@@ -129,7 +123,6 @@ public class LayoutPane {
         paneForLayout.setBottom(paneForBottom);
 
         Card[] cardHand = new Card[4];
-        int[] options = {0,1,2,3};
         Random random = new Random();
 
         btnForPlay.setOnAction(e ->{
@@ -139,28 +132,82 @@ public class LayoutPane {
                 Card.Suit suit = Card.Suit.values()[random.nextInt(Card.Suit.values().length)];
                 Card card = new Card(value, suit);
                 cardHand[i] = card;
-                if(i != 3) {
+                if(i != cardHand.length-1) {
                     imgViewOfCards[i].setImage(new Image("com/myCompany/guessacard/images/" + cardHand[i].getSuit() + "/" + cardHand[i].getValue() + ".png"));
                 }
             }
             Collections.shuffle(Arrays.asList(rdoBtnForOptions));
-            for(int i=0; i<cardHand.length; i++)
+            for(int i=0; i<rdoBtnForOptions.length; i++)
             {
                 Card.Value value = Card.Value.values()[random.nextInt(Card.Value.values().length)];
                 Card.Suit suit = Card.Suit.values()[random.nextInt(Card.Suit.values().length)];
                 Card card = new Card(value, suit);
-                if(i != 3) {
+                if(i != rdoBtnForOptions.length-1) {
                     rdoBtnForOptions[i].setText(card.getValue()+" of "+card.getSuit());
                 }
                 else
                 {
-                    rdoBtnForOptions[i].setText(cardHand[i].getValue()+" of "+cardHand[i].getSuit());
+                    rdoBtnForOptions[i].setText(cardHand[cardHand.length-1].getValue()+" of "+cardHand[cardHand.length-1].getSuit());
                 }
+            }
+            btnForPlay.setText("Play again");
+            btnForPlay.setPrefWidth(100);
+            imgViewOfCards[imgViewOfCards.length-1].setImage(imgOfCardBack);
+        });
+
+        btnForReset.setOnAction(e ->{
+            btnForPlay.setText("Play");
+            btnForPlay.setPrefWidth(60);
+            result.setText("Result:");
+            for (int i=0; i<imgViewOfCards.length;i++)
+            {
+                imgViewOfCards[i].setImage(imgOfCardBack);
+                imgViewOfCards[i].setFitWidth(100);
+                imgViewOfCards[i].setFitHeight(150);
+            }
+            for (int i=0; i< rdoBtnForOptions.length; i++)
+            {
+                rdoBtnForOptions[i].setText("Card example");
             }
         });
 
+        btnForConfirm.setOnAction(e -> {
+            boolean checkWin = false;
+            if(rdoBtnForOption1.isSelected() || rdoBtnForOption2.isSelected() || rdoBtnForOption3.isSelected() || rdoBtnForOption4.isSelected())
+            {
+                if (rdoBtnForOption1.isSelected() && rdoBtnForOption1.getText().equals(cardHand[cardHand.length-1].getValue()+" of "+cardHand[cardHand.length-1].getSuit()))
+                {
+                    checkWin = true;
+                }
+                else if (rdoBtnForOption2.isSelected() && rdoBtnForOption2.getText().equals(cardHand[cardHand.length-1].getValue()+" of "+cardHand[cardHand.length-1].getSuit()))
+                {
+                    checkWin = true;
+                }
+                else if (rdoBtnForOption3.isSelected() && rdoBtnForOption3.getText().equals(cardHand[cardHand.length-1].getValue()+" of "+cardHand[cardHand.length-1].getSuit()))
+                {
+                    checkWin = true;
+                }
+                else if (rdoBtnForOption4.isSelected() && rdoBtnForOption4.getText().equals(cardHand[cardHand.length-1].getValue()+" of "+cardHand[cardHand.length-1].getSuit()))
+                {
+                    checkWin = true;
+                }
 
-
+                if ( checkWin == true)
+                {
+                    result.setText("Result: You won!");
+                    imgViewOfCards[imgViewOfCards.length-1].setImage(new Image("com/myCompany/guessacard/images/" + cardHand[cardHand.length-1].getSuit() + "/" + cardHand[cardHand.length-1].getValue() + ".png"));
+                }
+                else
+                {
+                    result.setText("Result: You lose!");
+                    imgViewOfCards[imgViewOfCards.length-1].setImage(new Image("com/myCompany/guessacard/images/" + cardHand[cardHand.length-1].getSuit() + "/" + cardHand[cardHand.length-1].getValue() + ".png"));
+                }
+            }
+            else
+            {
+                result.setText("Please select any one of above choices.");
+            }
+        });
         return paneForLayout;
     }
 }
