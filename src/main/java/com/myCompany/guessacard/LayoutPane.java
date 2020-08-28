@@ -62,13 +62,14 @@ public class LayoutPane {
         paneForHeader.setCenter(paneForButtons);
 
         Image imgOfCardBack = new Image("com/myCompany/guessacard/images/CLUBS/green_back.png");
-        ImageView imgViewOfCard1 = new ImageView(imgOfCardBack);
-        ImageView imgViewOfCard2 = new ImageView(imgOfCardBack);
-        ImageView imgViewOfCard3 = new ImageView(imgOfCardBack);
-        ImageView imgViewOfCard4 = new ImageView(imgOfCardBack);
+        ImageView imgViewOfCard1 = new ImageView();
+        ImageView imgViewOfCard2 = new ImageView();
+        ImageView imgViewOfCard3 = new ImageView();
+        ImageView imgViewOfCard4 = new ImageView();
         ImageView[] imgViewOfCards = {imgViewOfCard1,imgViewOfCard2,imgViewOfCard3,imgViewOfCard4};
         for (int i=0; i< imgViewOfCards.length;i++)
         {
+            imgViewOfCards[i].setImage(imgOfCardBack);
             imgViewOfCards[i].setFitWidth(100);
             imgViewOfCards[i].setFitHeight(150);
         }
@@ -79,13 +80,13 @@ public class LayoutPane {
         paneForImages.setAlignment(Pos.CENTER);
         paneForImages.setPadding(new Insets(15,0,0,0));
         
-        Label lbForQues = new Label("Guess the forth card");
+        Label lbForQues = new Label("Guess the fourth card");
         lbForQues.setFont(Font.font("Helvetica",15));
 
-        RadioButton rdoBtnForOption1 = new RadioButton("Example card 1");
-        RadioButton rdoBtnForOption2 = new RadioButton("Example card 2");
-        RadioButton rdoBtnForOption3 = new RadioButton("Example card 3");
-        RadioButton rdoBtnForOption4 = new RadioButton("Example card 4");
+        RadioButton rdoBtnForOption1 = new RadioButton("Example of card 1");
+        RadioButton rdoBtnForOption2 = new RadioButton("Example of card 2");
+        RadioButton rdoBtnForOption3 = new RadioButton("Example of card 3");
+        RadioButton rdoBtnForOption4 = new RadioButton("Example of card 4");
         RadioButton[] rdoBtnForOptions = {rdoBtnForOption1,rdoBtnForOption2,rdoBtnForOption3,rdoBtnForOption4};
 
         ToggleGroup group = new ToggleGroup();
@@ -153,6 +154,7 @@ public class LayoutPane {
             btnForPlay.setText("Play again");
             btnForPlay.setPrefWidth(100);
             imgViewOfCards[imgViewOfCards.length-1].setImage(imgOfCardBack);
+            result.setText("Result:");
         });
 
         btnForReset.setOnAction(e ->{
@@ -162,12 +164,10 @@ public class LayoutPane {
             for (int i=0; i<imgViewOfCards.length;i++)
             {
                 imgViewOfCards[i].setImage(imgOfCardBack);
-                imgViewOfCards[i].setFitWidth(100);
-                imgViewOfCards[i].setFitHeight(150);
             }
             for (int i=0; i< rdoBtnForOptions.length; i++)
             {
-                rdoBtnForOptions[i].setText("Card example");
+                rdoBtnForOptions[i].setText("Example of card option");
             }
         });
 
@@ -199,13 +199,13 @@ public class LayoutPane {
                 }
                 else
                 {
-                    result.setText("Result: You lose!");
+                    result.setText("Result: You lost!");
                     imgViewOfCards[imgViewOfCards.length-1].setImage(new Image("com/myCompany/guessacard/images/" + cardHand[cardHand.length-1].getSuit() + "/" + cardHand[cardHand.length-1].getValue() + ".png"));
                 }
             }
             else
             {
-                result.setText("Please select any one of above choices.");
+                result.setText("Please select any one of above options.");
             }
         });
         return paneForLayout;
