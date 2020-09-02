@@ -11,7 +11,7 @@ GUI: JavaFx
 Location of Java classes: src\main\java\com\myCompany\guessacard
 
 ## A sample screenshot of Project
-![Screesshot of GUI](https://github.com/Dev-Daljeet/TemperatureConverter/blob/master/Screenshots/Screenshot(GUI).jpg?raw=true)
+![Screesshot of GUI](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screenshot%20of%20GUI.jpg?raw=true)
 
 ## Run:
 ### Prerequisites: 
@@ -54,19 +54,20 @@ Step 5: At GUI window, click on 'Play' button. Then, select any of the given opt
 
 ## Usage example:
 ### example 1:
-Convert 22.4 Celsius (°C) to fahrenheit (°F).
+First time play: click 'Play' button and then, select any of the given options. Then, click the 'Confirm' button to confirm your choice. The result will be displayed at text area located at bottom of GUI.
 
-![Screesnhot of conversion 1](https://github.com/Dev-Daljeet/TemperatureConverter/blob/master/Screenshots/convert1.jpg?raw=true)
+![Screenshot of Play 1a](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screenshot%20of%20Play%201a.jpg?raw=true)
+![Screenshot of Play 1b](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screenshot%20of%20Play%201b.jpg?raw=true)
 
 ### example 2:
-Convert -3.4 Rankine (°R) to Kelvin (K).
+Play again by clicking on 'Play Again' button..
 
-![Screesnhot of conversion 2](https://github.com/Dev-Daljeet/TemperatureConverter/blob/master/Screenshots/convert2.jpg?raw=true)
+![Screenshot of Play 2](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screesnhot%20of%20Play%202.jpg?raw=true)
 
 ### example 3: 
-Clear the input field and result.
+Reset the cards, 'Play' button and clear the result by clicking on 'Reset' button.
 
-![Screesnhot of clear](https://github.com/Dev-Daljeet/TemperatureConverter/blob/master/Screenshots/clear.jpg?raw=true)
+![Screesnhot of reset](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screesnhot%20of%20reset.jpg?raw=true)
 
 # License
 MIT License
