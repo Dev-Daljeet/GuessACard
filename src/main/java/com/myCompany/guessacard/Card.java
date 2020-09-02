@@ -1,4 +1,4 @@
-package com.myCompany.guessacard;
+package com.mycompany.guessacard;
 
 /** Represents a card from 52 playing card deck.
  * @author Daljeet Singh (Dev-Daljeet)

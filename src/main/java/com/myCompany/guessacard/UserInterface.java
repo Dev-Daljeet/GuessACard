@@ -1,4 +1,4 @@
-package com.myCompany.guessacard;
+package com.mycompany.guessacard;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -18,7 +18,7 @@ public class UserInterface extends Application
     public void start(Stage stage)
     {
         Scene scene = new Scene(layoutPane.getPaneForLayout(),450,550);
-        stage.setTitle("Guess the card");
+        stage.setTitle("Guess a card");
         stage.setScene(scene);
         stage.show();
     }

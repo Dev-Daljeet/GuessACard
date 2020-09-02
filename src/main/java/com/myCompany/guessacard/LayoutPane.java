@@ -1,4 +1,4 @@
-package com.myCompany.guessacard;
+package com.mycompany.guessacard;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -34,7 +34,7 @@ public class LayoutPane {
     {
         // Make a text object which acts as a heading.
         Text heading = new Text();
-        heading.setText("Guess the card");
+        heading.setText("Guess a card");
         heading.setFill(Color.WHITE);
         heading.setFont(Font.font("Verdana", FontWeight.BOLD, FontPosture.REGULAR,25));
 
