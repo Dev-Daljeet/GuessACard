@@ -34,7 +34,7 @@ public class LayoutPane {
     {
         // Make a text object which acts as a heading.
         Text heading = new Text();
-        heading.setText("Guess a card");
+        heading.setText("Guess the card");
         heading.setFill(Color.WHITE);
         heading.setFont(Font.font("Verdana", FontWeight.BOLD, FontPosture.REGULAR,25));
 

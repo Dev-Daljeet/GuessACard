@@ -8,7 +8,7 @@ Programming language: Java
 
 GUI: JavaFx
 
-Location of Java classes: src\main\java\com\myCompany\guessacard
+Location of Java classes: src\main\java\com\mycompany\guessacard
 
 ## A sample screenshot of Project
 ![Screesshot of GUI](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screenshot%20of%20GUI.jpg?raw=true)
@@ -29,7 +29,7 @@ Step 1: Download the zip of the project or clone the project with HTTPS.
 
 Step 2: Open the project in IDE. For zip file, unzip the project or import the project into IDE.
 
-Step 3: Go to src\main\java\com\myCompany\guessacard and compile and run the class UserInterface.
+Step 3: Go to src\main\java\com\mycompany\guessacard and compile and run the class UserInterface.
 
 Step 4: At GUI window, click on 'Play' button. Then, select any of the given options. Lastly, click on 'Confirm' button to confirm your choice. The result will be displayed in TextArea at bottom of GUI.
 Click on 'Play again' button to play again and 'Reset' button to reset the game back to default.
@@ -39,7 +39,7 @@ Click on 'Play again' button to play again and 'Reset' button to reset the game 
 
 Step 1: Download the zip of the project or clone the project with HTTPS.
 
-Step 2: On Command Prompt, navigate to src\main\java\com\myCompany\guessacard directory. For zip file, unzip the project and navigate to directory. 
+Step 2: On Command Prompt, navigate to src\main\java\com\mycompany\guessacard directory. For zip file, unzip the project and navigate to directory. 
 
 Step 3: Execute the following command to compile the UserInterface.java file.
         

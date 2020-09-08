@@ -18,7 +18,7 @@ public class UserInterface extends Application
     public void start(Stage stage)
     {
         Scene scene = new Scene(layoutPane.getPaneForLayout(),450,550);
-        stage.setTitle("Guess a card");
+        stage.setTitle("Guess the card");
         stage.setScene(scene);
         stage.show();
     }
