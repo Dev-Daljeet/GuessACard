@@ -8,7 +8,7 @@ Programming language: Java
 
 GUI: JavaFx
 
-Location of Java classes: src\main\java\com\myCompany\guessacard
+Location of Java classes: src\main\java\com\mycompany\guessacard
 
 ## A sample screenshot of Project
 ![Screesshot of GUI](https://github.com/Dev-Daljeet/GuessACard/blob/master/Screenshots/Screenshot%20of%20GUI.jpg?raw=true)

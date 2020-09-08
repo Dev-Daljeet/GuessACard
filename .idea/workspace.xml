@@ -26,65 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa3fe9a6-ad0c-4d2c-a21a-e4f52c551b59" name="Default Changelist" comment="Added the screenshots folder.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="aa3fe9a6-ad0c-4d2c-a21a-e4f52c551b59" name="Default Changelist" comment="Removed the out directory.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/ACE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/EIGHT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/FIVE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/FOUR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/JACK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/KING.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/NINE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/QUEEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/SEVEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/SIX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/TEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/THREE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/TWO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/CLUBS/green_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/ACE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/EIGHT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/FIVE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/FOUR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/JACK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/KING.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/NINE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/QUEEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/SEVEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/SIX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/TEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/THREE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/DIAMONDS/TWO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/ACE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/EIGHT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/FIVE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/FOUR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/JACK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/KING.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/NINE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/QUEEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/SEVEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/SIX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/TEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/THREE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/HEARTS/TWO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/ACE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/EIGHT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/FIVE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/FOUR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/JACK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/KING.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/NINE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/QUEEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/SEVEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/SIX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/TEN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/THREE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuessACard/com/myCompany/guessacard/images/SPADES/TWO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myCompany/guessacard/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/guessacard/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myCompany/guessacard/LayoutPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/guessacard/LayoutPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myCompany/guessacard/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/guessacard/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598742803371</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Removed the out directory.">
+      <created>1599079836346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599079836346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +252,8 @@
     <MESSAGE value="Fixed few logic errors." />
     <MESSAGE value="Documented the code using javadoc / doc comments." />
     <MESSAGE value="Added the screenshots folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the screenshots folder." />
+    <MESSAGE value="Removed the out directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the out directory." />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1598628099827">
@@ -316,26 +268,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598541789816" />
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1598732582006">
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1599403217310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598732582006" />
-    <state width="1493" height="160" key="GridCell.Tab.0.bottom" timestamp="1599079605096">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599403217310" />
+    <state width="1493" height="160" key="GridCell.Tab.0.bottom" timestamp="1599415379547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599079605096" />
-    <state width="1493" height="160" key="GridCell.Tab.0.center" timestamp="1599079605096">
+    <state width="1493" height="160" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599415379547" />
+    <state width="1493" height="160" key="GridCell.Tab.0.center" timestamp="1599415379547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599079605096" />
-    <state width="1493" height="160" key="GridCell.Tab.0.left" timestamp="1599079605096">
+    <state width="1493" height="160" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599415379547" />
+    <state width="1493" height="160" key="GridCell.Tab.0.left" timestamp="1599415379547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599079605096" />
-    <state width="1493" height="160" key="GridCell.Tab.0.right" timestamp="1599079605096">
+    <state width="1493" height="160" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599415379547" />
+    <state width="1493" height="160" key="GridCell.Tab.0.right" timestamp="1599415379547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599079605096" />
+    <state width="1493" height="160" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599415379547" />
     <state width="1493" height="509" key="GridCell.Tab.1.bottom" timestamp="1598547762680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -356,14 +308,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598628239022" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598742814329">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599079883626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598742814329" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598626887256">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599079883626" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599079889830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598626887256" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599079889830" />
     <state x="585" y="307" key="git4idea.ui.GitResetDialog" timestamp="1598626911941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
