@@ -2,7 +2,7 @@
 > A card game where player has to guess the fourth card in hand of four playing cards.
 
 This project is a 'Guess a Card' game where player has to guess the fourth card in hand of four playing cards. First, three out of four cards will be shown to player. 
-Then, four card options will be shown to player. Player has to pick the right option which is fourth card in order to win the game.
+Then, four card options (radio button) will be shown to player. Player has to pick the right option which will be the fourth card in order to win the game.
 
 Programming language: Java
 
@@ -22,6 +22,8 @@ Location of Java classes: src\main\java\com\mycompany\guessacard
 * (optional) any Java IDE (recommened IntelliJ IDEA Version: 2020.2.1 or latest release)
 
 Refer to this [link](https://www.tutorialspoint.com/javafx/javafx_environment.htm) for installation of Oracle JDK and setting up the path for windows.
+
+**Note: This is a normal Java project (not a maven project).**
 
 ### Using IDE:
 
